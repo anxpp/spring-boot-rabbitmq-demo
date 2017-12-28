@@ -20,9 +20,10 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    添加私服地址
 }
 
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter-amqp")
+    引入jar
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
