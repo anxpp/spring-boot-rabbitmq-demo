@@ -11,5 +11,6 @@ public class DiamondVipChangeHandler implements DiamondVipChange {
     public void handle(VipDiamondChangeBody body) {
         // 此处 body 即为钻石VIP等级变更消息的新消息体
         // 请在此处实现该消息的处理逻辑
+        System.out.println();
     }
 }

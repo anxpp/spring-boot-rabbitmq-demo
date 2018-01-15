@@ -1,5 +1,8 @@
 
 spring:
   rabbitmq:
-    host: x.x.x.x
-    port: xxxx
+    host: 10.27.229.113
+    port: 5672
+ypp:
+  platform:
+    gateway: http://127.0.0.1:10011
